@@ -1,0 +1,14 @@
+.message {
+    margin-bottom: 8px;
+  }
+  
+  .username {
+    font-weight: bold;
+    margin-right: 40px;
+
+  }
+  .sender-receiver-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }

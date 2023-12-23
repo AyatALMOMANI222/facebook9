@@ -1,0 +1,150 @@
+.profile-page-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .profile-imges-container {
+    width: 100%;
+    position: relative;
+    padding: 20px;
+  }
+  .cover-photo {
+    width: 100%;
+    height: 300px;
+    border: 1px solid red;
+    border-radius: 5px;
+  }
+  .profile-photo {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    top: 234px;
+    bottom: 0;
+    right: 0px;
+    left: 124px;
+    border: 1px solid red;
+  }
+  .first-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 20px;
+  }
+  .user-information-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+  }
+  .info {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(10, 1, 36);
+  }
+  .post-container {
+    padding-right: 40px;
+  }
+  .post-container .note {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: gray;
+  }
+  .edit-information-btn {
+    width: 150px;
+    border: none;
+    outline: none;
+    border: none;
+    height: 40px;
+    font-size: 15px;
+  
+  }
+  .edit-information-btn:active {
+    width: 150px;
+    border: none;
+    outline: none;
+  }
+  .edit-information-section {
+    height: 200px;
+    padding: 20px;
+  }
+  .edit-information {
+    display: grid;
+    width: 900px;
+    padding: 20px;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 20px;
+  }
+  .editBtn {
+    height: 45px;
+    border: none;
+    width: 50%;
+  }
+  .actions-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .edit-infi-btn,
+  .cancel-edit-info {
+    width: 150px;
+  }
+  .edit-info-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(1, 1, 38);
+    padding: 20px;
+    width: 100%;
+    border-bottom: 1px solid rgb(198, 198, 198);
+  }
+  .details-container-profile{
+      margin-left: 280px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 60px;
+  
+  }
+  .profile-name{
+      font-weight: 500;
+      font-size: 23px;
+      color: rgb(2, 2, 43);
+  }
+  .main-page-container{
+  
+    display: grid;
+    grid-template-columns: 30% 59%;
+    grid-template-rows: 10px 100px; /* تحديد ارتفاع الصفوف هنا */
+grid-column-gap: 50px;
+  }
+  .imges-container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+grid-template-rows: 100px;
+    
+  }
+  .imgg{
+    height: 300px;
+    width: 400px;
+  border: 1px solid red;
+  }
+  .img-one{
+    height: 100%;
+    width: 100%;
+
+    border: 1px solid white;
+  }
+
+  .post-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .img-post {
+    height: 221px;
+    width: 395px;
+}
+.my-posts{
+  font-size: 20px;
+  font-weight: 500;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}

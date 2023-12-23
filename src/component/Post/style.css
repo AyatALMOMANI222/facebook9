@@ -1,0 +1,9 @@
+/* .imgg{
+    width: 80px;
+    height: 80px;
+} */
+.prof-post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
